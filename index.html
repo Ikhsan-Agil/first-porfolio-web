@@ -1,152 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ikhsan's Corner</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ikhsan's Corner</title>
 
-    <!-- Google Fonts: Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- Google Fonts: Roboto -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <!-- Google fonts: Satisfy -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+        <!-- Google fonts: Satisfy -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
 
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <!--Bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
 
-    <!--Link to CSS-->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-      <div class="container">
-        <a class="navbar-brand" href="#" id="judul">Ikhsan's Corner</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Skill</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Akhir Navbar -->
-    <!-- Home -->
-    <section id="home">
-      <div class="jumbotron">
-          <img src="img/foto.jpg" alt="Foto Ikhsan" id="foto" class="img-thumbnail"/>
-          <h1 class="display-4">Ikhsan Agil Kusuma</h1>
-          <p class="lead text-center" id="lead">Student at State University of Jakarta</p>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir Home -->
-    <!-- About Me -->
-    <section id="about">
-      
-      <div class="container text-center pt-5 pb-5">
+        <!--Link to CSS-->
+        <link rel="stylesheet" href="style.css" />
+
+        <!--Font Awesome Icons-->
+        <script src="https://kit.fontawesome.com/4e2e9f0e62.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand brand" href="#">Ikhsan's Corner</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Akhir Navbar -->
+        <!-- Home -->
+        <section id="home">
+            <div class="jumbotron text-center">
+                <img src="img/foto.jpg" alt="Foto Ikhsan" id="foto" class=""/>
+                <h1 class="display-4">Ikhsan Agil Kusuma</h1>
+                <p class="lead" id="lead">Student at State University of Jakarta</p>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F2CB9B" fill-opacity="1" d="M0,96L30,112C60,128,120,160,180,181.3C240,203,300,213,360,197.3C420,181,480,139,540,133.3C600,128,660,160,720,170.7C780,181,840,171,900,160C960,149,1020,139,1080,165.3C1140,192,1200,256,1260,250.7C1320,245,1380,171,1410,133.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></>
+        </section>
+        <!-- Akhir Home -->
+        <!-- About Me -->
+        <section id="about">       
+            <div class="container text-center">   
+                <div class="row">
+                    <div class="col"><h2>About Me</h2></div>
+                </div>
+                <div class="row mt-3 justify-content-center fs-5">
+                    <div class="col-md-6">
+                        <p>
+                        Hello, I’m Ikhsan. My full name is Ikhsan Agil Kusuma. I was born in Blora on December 10th 2000. I have studied at Senior High School 1 Blora and graduated on 2019. Now, I’m a student at State University of Jakarta majoring
+                        in Computer Science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D9843B" fill-opacity="1" d="M0,192L34.3,202.7C68.6,213,137,235,206,208C274.3,181,343,107,411,85.3C480,64,549,96,617,144C685.7,192,754,256,823,261.3C891.4,267,960,213,1029,181.3C1097.1,149,1166,139,1234,154.7C1302.9,171,1371,213,1406,234.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir About Me -->
+
+        <!-- Skill -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="text-center">Skills</h2>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-1">
+                        <span id="icons">
+                            <i class="fab fa-html5"></i>
+                        </span>
+                    </div>
+                    <div class="col-1">
+                        <p>                    
+                            HTML
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-1">
+                        
+                        <span id="icons">
+                            <i class="fab fa-css3-alt"></i>
+                        </span>
+                        
+                    </div>
+                    <div class="col-1">
+                        <p>                   
+                            CSS
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-1">
+                        <span id="icons">
+                            <i class="fab fa-bootstrap"></i>
+                        </span>
+                    </div>
+                    <div class="col-1">
+                        <p>                    
+                            Bootstrap
+                        </p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D99789" fill-opacity="1" d="M0,128L34.3,160C68.6,192,137,256,206,234.7C274.3,213,343,107,411,101.3C480,96,549,192,617,224C685.7,256,754,224,823,186.7C891.4,149,960,107,1029,106.7C1097.1,107,1166,149,1234,144C1302.9,139,1371,85,1406,58.7L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+        </section>
+        <!-- Akhir Skill -->
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2 class="mb-5 text-center">Projects</h2>
+            <div class="container pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" height="">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                        <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                        <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                        <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                        <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Waves -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F2CB9B" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,90.7C240,85,300,139,360,170.7C420,203,480,213,540,218.7C600,224,660,224,720,197.3C780,171,840,117,900,96C960,75,1020,85,1080,117.3C1140,149,1200,203,1260,224C1320,245,1380,235,1410,229.3L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+            <!-- Akhir Waves -->
+        </section>
+        <!-- Akhir Projects -->
+        <!--Contacts-->
+        <section id="contact">
+            <h2 class="text-center mb-4">Contacts</h2>
+            <div class="container">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label ">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit ms-auto">SUBMIT</button>
+                </form>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#363440" fill-opacity="1" d="M0,288L24,240C48,192,96,96,144,90.7C192,85,240,171,288,213.3C336,256,384,256,432,245.3C480,235,528,213,576,186.7C624,160,672,128,720,144C768,160,816,224,864,224C912,224,960,160,1008,128C1056,96,1104,96,1152,112C1200,128,1248,160,1296,165.3C1344,171,1392,149,1416,138.7L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+        </section>
+        <!--Akhir Contacts-->
         
-        <div class="row mt-3">
-          <div class="col"><h2>About Me</h2></div>
-        </div>
-        <div class="row mt-3 justify-content-center fs-5">
-          <div class="col-md-6">
-            <p>
-              Hello, I’m Ikhsan. My full name is Ikhsan Agil Kusuma. I was born in Blora on December 10th 2000. I have studied at Senior High School 1 Blora and graduated on 2019. Now, I’m a student at State University of Jakarta majoring
-              in Computer Science.
+        <!--Bootstrap Bundle with popper-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+    <footer>
+        <div class="container">
+            <h2 class="text-center mb-4">Find me on:</h2>
+            <div class="css-0001">
+                <span>
+                    <button type="submit" class="btn-insta">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                </span>
+                <!-- <span class="ms-2">
+                    <button type="submit" class="btn-line">
+                        <i class="fab fa-line"></i>
+                    </button>
+                </span> -->
+                <span class="ms-2">
+                    <button type="submit" class="btn-github">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </span>
+                <span class="ms-2">
+                    <button type="submit" class="btn-bitbucket">
+                        <i class="fab fa-bitbucket"></i>
+                    </button>
+                </span>
+            </div>
+            <p class="text-center mt-4">
+                <i class="far fa-copyright"></i>
+                Copyright by <span class="brand">Ikhsan's Corner</span>
             </p>
-          </div>
-        
+            
+            
+            
         </div>
-      </div>
-      
-    </section>
-    <!-- Akhir About Me -->
-
-    <!-- Skill -->
-    <section id="skill">
-      <div class="container">
-        <div class="row">
-          <div class="column">
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir Skill -->
-
-    <!-- Projects -->
-    <section id="projects">
-      <h2 class="pt-5 mb-3 text-center text-white">Projects</h2>
-      <div class="container pb-5">
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir Projects -->
-    
-    <!--Bootstrap Bundle with popper-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  </body>
+    </footer>
 </html>

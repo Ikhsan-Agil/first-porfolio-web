@@ -1,0 +1,53 @@
+body{
+    background-color: #F2EDE4;
+}
+
+.css-0002 {
+    margin-top: 70px;
+}
+  
+.css-0002 #text p{
+    font-size: 22px !important;
+    text-align: justify;
+    color: #363440;
+}
+
+.css-0002 #back-button .btn-back{
+    border: none;
+    border-bottom: 1px solid #363440;
+    background-color: #F2EDE4;
+    color: #363440;
+}
+
+.css-0002 #back-button .btn-back:hover{
+    border: none;
+    border-bottom: 1px solid #363440;
+    background-color: #363440;
+    color: #F2EDE4 !important;
+    
+}
+
+.css-0002 #back-button .btn-back:active{
+    border: none;
+    border-bottom: 1px solid #363440;
+    background-color: #363440;
+    color: #F2EDE4 !important;
+    box-shadow: 0 0 10px #363440;
+    
+}
+
+.css-0002 #back-button .btn-back .far.fa-arrow-alt-circle-left{
+    font-size: 28px;
+    position: relative;
+    
+}
+
+
+.css-0002 #back-button .btn-back p{
+    display: inline;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+

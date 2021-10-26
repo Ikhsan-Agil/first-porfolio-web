@@ -1,21 +1,19 @@
-body {
-  min-height: 1500px;
-}
-
 #navbar {
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(25, 247, 128);
+  background-color: #363440;
+  color: #F2EDE4;
 }
 
-#judul {
+.brand {
   font-family: 'Satisfy', cursive;
+  color: #F2EDE4;
 }
 
 #home {
-  background-color: rgb(55, 55, 55);
+  background-color: #F2EDE4;
   top: 0;
   padding-top: 40px;
-  padding-bottom: 80px;
+ 
   width: 100%;
   height: 100%;
 }
@@ -24,25 +22,122 @@ body {
   margin-top: 50px;
   width: 250px;
   border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-h1 {
-  color: white;
-  text-align: center;
-  margin-top: 30px;
+  border: 3px solid #363440;
+  
 }
 
-#lead {
-  color: white;
+h1{
+  margin-top: 20px;
+}
+
+h1,#lead {
+  font-family: 'Roboto', sans-serif;
+  color: #363440;
   text-align: center;
 }
 
 #about {
-  background-color: rgb(25, 247, 128);
+  padding: 70px 0 0 0;
+  background-color: #F2CB9B;
+}
+
+#skills{
+  padding: 70px 0 0 0;
+  background-color: #D9843B;
+  color: #F2EDE4;
+}
+
+#skills p{
+  font-size: 18px;
+}
+
+#skills .fab.fa-html5,
+.fab.fa-css3-alt,
+.fab.fa-bootstrap{
+  font-size: 18px;
 }
 
 #projects {
-  background-color: rgb(55, 55, 55);
+  background-color: #D99789;
+  padding: 70px 0 0 0;
+}
+
+#projects h2{
+  color: #363440;
+}
+
+#contact{
+  padding: 57px 0 0 0;
+  background-color: #F2CB9B;
+}
+
+.btn-submit{
+  color: #363440;
+  background-color: #F2CB9B;
+  border: 3px solid #363440;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px 0 15px 0;
+  font-weight: bold;
+}
+
+.btn-submit:hover{
+  cursor: pointer;
+  background-color: #363440;
+  color: #F2EDE4;
+}
+
+.btn-submit:active{
+  transform: translateY(2px);
+  box-shadow: 0 0 10px #363440;
+}
+
+footer{
+  padding: 30px 0 30px 0;
+  background-color: #363440;
+  color: #F2EDE4;
+}
+
+.css-0001{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-insta,
+.btn-line,
+.btn-github,
+.btn-bitbucket
+{
+  padding: 10px 17px;
+  font-size: 25px;
+  background-color: #363440;
+  color: #F2EDE4;
+  border: 1px solid #F2EDE4;
+  border-radius: 5px;
+  display: flexbox;
+}
+
+.btn-insta:hover,
+.btn-line:hover,
+.btn-github:hover,
+.btn-bitbucket:hover
+{
+  background-color: #F2EDE4;
+  color: #363440;
+  border: 1px solid #F2EDE4;
+}
+
+.btn-insta:active,
+.btn-line:active,
+.btn-github:active,
+.btn-bitbucket:active
+{
+  background-color: #F2EDE4;
+  color: #363440;
+  border: 1px solid #F2EDE4;
+  box-shadow: 0 0 5px #F2EDE4;
+}
+
+footer p{
+  font-size: 22px;
 }
